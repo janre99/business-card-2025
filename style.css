@@ -5,6 +5,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .card{
@@ -12,3 +13,29 @@ body{
     border-radius: 16px;
     padding: 32px;
 }
+
+.card__description {
+    line-height: 1.375;
+    margin: 0;
+}
+
+.card__link {
+    color: #E20613;
+    text-decoration: none;
+    margin: 0;
+}
+
+.card__name {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.card__position {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0;
+    color: #545454;
+}
+
+
